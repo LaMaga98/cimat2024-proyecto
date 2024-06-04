@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.21)  3 JUN 2024 15:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.21)  3 JUN 2024 16:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1399,18 +1399,29 @@ Overfull \hbox (96.38647pt too wide) in paragraph at lines 304--305
 []\T1/iwonal/m/n/10.95 Liga Cin-ves-tav: []$\T1/cmtt/m/n/10.95 https : / / portal . cinvestav . mx / ira / investigacion / directorio-[]de-[]investigacion /
  []
 
-
-Overfull \hbox (14.77576pt too wide) in paragraph at lines 337--339
-[]\T1/iwonal/m/n/10.95 UniParc (Uni-ver-sal Pro-tein Re-sour-ce Ar-chi-ve) []$\T1/cmtt/m/n/10.95 https : / / www . uniprot . org / help / uniparc$[] 
- []
-
 [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/iwona/ec-iwona.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} </Users/ely/Documents/Plantilla/Figures/cimat.png>]
-</Users/ely/Documents/Plantilla/Figures/waves.pdf, id=67, 1008.41893pt x 120.54713pt>
+Overfull \hbox (14.77576pt too wide) in paragraph at lines 367--369
+[]\T1/iwonal/m/n/10.95 UniParc (Uni-ver-sal Pro-tein Re-sour-ce Ar-chi-ve) []$\T1/cmtt/m/n/10.95 https : / / www . uniprot . org / help / uniparc$[] 
+ []
+
+</Users/ely/Documents/Plantilla/Figures/waves.pdf, id=68, 1008.41893pt x 120.54713pt>
 File: /Users/ely/Documents/Plantilla/Figures/waves.pdf Graphic file (type pdf)
 <use /Users/ely/Documents/Plantilla/Figures/waves.pdf>
-Package pdftex.def Info: /Users/ely/Documents/Plantilla/Figures/waves.pdf  used on input line 373.
+Package pdftex.def Info: /Users/ely/Documents/Plantilla/Figures/waves.pdf  used on input line 383.
+(pdftex.def)             Requested size: 302.52802pt x 36.1644pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 40.24443pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.24443pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-28.24443pt}.
+
+[2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/iwona/ec-iwona-sc.enc} </Users/ely/Documents/Plantilla/Figures/waves.pdf>]
+File: /Users/ely/Documents/Plantilla/Figures/waves.pdf Graphic file (type pdf)
+<use /Users/ely/Documents/Plantilla/Figures/waves.pdf>
+Package pdftex.def Info: /Users/ely/Documents/Plantilla/Figures/waves.pdf  used on input line 439.
 (pdftex.def)             Requested size: 302.52802pt x 36.1644pt.
 
 
@@ -1420,20 +1431,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-28.24443pt}.
 
-[2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/iwona/rm-iwona.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/iwona/ec-iwona-sc.enc} </Users/ely/Documents/Plantilla/Figures/waves.pdf>]
-File: /Users/ely/Documents/Plantilla/Figures/waves.pdf Graphic file (type pdf)
-<use /Users/ely/Documents/Plantilla/Figures/waves.pdf>
-Package pdftex.def Info: /Users/ely/Documents/Plantilla/Figures/waves.pdf  used on input line 388.
-(pdftex.def)             Requested size: 302.52802pt x 36.1644pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 40.24443pt, for example:
-(fancyhdr)                \setlength{\headheight}{40.24443pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-28.24443pt}.
-
-[3] (/Users/ely/Documents/Maestria/Proyecto_tecnologico/cimat2024-proyecto/tarea1/panorama.aux
+[3{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/iwona/rm-iwona.enc}] (/Users/ely/Documents/Maestria/Proyecto_tecnologico/cimat2024-proyecto/tarea1/panorama.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
@@ -1441,18 +1439,18 @@ Package rerunfilecheck Info: File `panorama.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 52961 strings out of 476025
- 1168923 string characters out of 5790016
+ 52964 strings out of 476025
+ 1168944 string characters out of 5790016
  1865388 words of memory out of 5000000
  72381 multiletter control sequences out of 15000+600000
  572449 words of font info for 147 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,15n,133p,3317b,621s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,15n,133p,3317b,623s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/nowacki/iwona/iwonal.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on /Users/ely/Documents/Maestria/Proyecto_tecnologico/cimat2024-proyecto/tarea1/panorama.pdf (3 pages, 118348 bytes).
+Output written on /Users/ely/Documents/Maestria/Proyecto_tecnologico/cimat2024-proyecto/tarea1/panorama.pdf (3 pages, 121208 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
- 15 named destinations out of 1000 (max. 500000)
+ 174 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
+ 18 named destinations out of 1000 (max. 500000)
  167 words of extra memory for PDF output out of 10000 (max. 10000000)
 

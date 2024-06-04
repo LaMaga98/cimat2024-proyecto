@@ -312,6 +312,7 @@ leftrule = 4pt
     \item Los datasets que has encontrado y los papers donde los presenten o usen, en caso de que ya tengas una idea la conformación del dataset incluye una descripción.
     
     \begin{enumerate}
+
         \item Protein Data Bank: \url{https://www.rcsb.org }
         
         Recopila y proporciona acceso a estructuras tridimensionales de biomoléculas, principalmente proteínas y ácidos nucleicos.
@@ -332,6 +333,35 @@ leftrule = 4pt
 
         Improtancia NLP: Para entrenarse en una amplia gama de secuencias
 
+
+        \item Database of Antimicrobial Activity and Structure of Peptides \url{https://dbaasp.org/home}
+        
+        Diseñada para recopilar y proporcionar información sobre la actividad antimicrobiana y la estructura de péptidos. Está enfocada en péptidos que tienen propiedades antimicrobianas, lo cual es crucial para el desarrollo de nuevos antibióticos y tratamientos contra infecciones.
+
+        Datos Estructurales: Incluye información detallada sobre la estructura tridimensional de péptidos antimicrobianos
+
+        Proporciona muchas herramientas visuales, es de libre acceso y tiene algunos modelos interactivos en la página.
+
+        \item UNIRPOT \url{https://www.uniprot.org}
+        
+        UniProt is updated every eight weeks. You can download small data sets and subsets directly from this website by following the download link on any search result page. For downloading complete data sets we recommend using ftp.uniprot.org.
+
+
+        Las principales bases de datos dentro de UniProt incluyen UniProtKB, UniParc, y UniRef.
+
+
+
+        Dowloads: \url{https://www.uniprot.org/help/downloads}
+
+
+        \item UniProtKB
+        
+        UniProtKB se divide en dos secciones principales:  Swiss-Prot y TrEMBL (Translated EMBL Nucleotide Sequence Data Library).
+        La primera contiene entradas que son anotadas y revisadas manualmente por expertos. Esto asegura que la información sea precisa, detallada y de alta calidad. Incluye información sobre la función de proteínas, dominios y sitios activos, variantes naturales, y modificaciones postraduccionales. Se enfoca en la eliminación de redundancia y la integración de datos de diversas fuentes experimentales y computacionales.
+
+
+        Por otro lado TrEMBL (Translated EMBL Nucleotide Sequence Data Library) contiene entradas generadas automáticamente que aún no han sido revisadas manualmente perolas entradas  se actualizan y anotan regularmente conforme se dispone de nueva información.
+
        
 
         \item UniParc (Universal Protein Resource Archive) 
@@ -350,22 +380,43 @@ leftrule = 4pt
 
         Numero de muestras: 441,169,278 entradas de secuencias de proteínas. Incluye secuencias de proteínas de una amplia variedad de organismos, desde bacterias hasta plantas y animales.
 
-        \item UNIREF
+        \item UNIREF \url{https://www.uniprot.org/downloads}
         
         UniRef100:combina secuencias idénticas (100$\% $idénticas) y sus fragmentos exactos en una sola entrada con la secuencia más larga como representante.
     
         UniRef90:agrupa secuencias de proteínas que tienen al menos un 90$\% $de identidad secuencial y una longitud de alineación de al menos 80$\% $con la secuencia representativa más larga. Reduce la redundancia sin perder la diversidad funcional de las proteínas, siendo útil para análisis comparativos donde es importante la diversidad pero se busca evitar redundancias excesivas.
         
         UniRef50: UniRef50 agrupa secuencias de proteínas que tienen al menos un 50$\% $de identidad secuencial y una longitud de alineación de al menos 80$\% $con la secuencia representativa más larga.  Este nivel es beneficioso para estudios que requieren un análisis de datos a gran escala y una representación no redundante de secuencias de proteínas.
+
+        Se encuentra también en uniprot
     \end{enumerate}
 
     \item Si tienes otras referencias relevantes incluye estos papers y describe por que los ves relevantes.
     
     \begin{enumerate}
-        \item ProteinBert: Otro tipo de Transformers. Utilizan atención pero con arquitectura distinta. Se preentrenó utilizando el conjunto de datos UniProtKB y UniRef90, que contiene aproximadamente 106 millones de secuencias de proteínas. UniRef90 es una base de datos no redundante. Esto asegura que el preentrenamiento cubra una amplia diversidad de secuencias proteicas. Se ajustó a estructura de proteínas, homología remota, modificaciones postraduccionales y propiedades biofísicas.
+        \item ProteinBert: Otro tipo de Transformers. Utilizan atención pero con arquitectura distinta. 
+
+        La arquitectura está diseñada para manejar tanto representaciones locales (a nivel de posición en la secuencia) como globales (a nivel de toda la secuencia).
+
+        Se preentrenó utilizando el conjunto de datos UniProtKB y UniRef90. El preentrenamiento cubre una amplia diversidad de secuencias proteicas. Se hizo fine-tuning a estructura de proteínas, homología remota, modificaciones postraduccionales y propiedades biofísicas.
+
+        Busca solucionar dos cosas: Modelado bidireccional del lenguaje de secuencias de proteínas y predicción de anotaciones de Gene Ontology (GO).
     
-        \item ProtTrans: Varios LLM pre-entrenados en grandes corpus de texto
+
+        Codigo en \url{https://github.com/nadavbra/protein_bert}
+
+
+        \item ProtTrans: 
+        is providing state of the art pre-trained models for proteins. ProtTrans was trained on thousands of GPUs from Summit and hundreds of Google TPUs using various Transformer models.
+
+        News: 2023/07/14: FineTuning with LoRA provides a notebooks on how to fine-tune ProtT5 on both, per-residue and per-protein tasks, using Low-Rank Adaptation (LoRA) for efficient finetuning (thanks @0syrys !).
+
+        
+        codigo en \url{https://github.com/agemagician/ProtTrans}
     
+
+
+
         \item AlphaFold 2 y 3: Estado del arte en predicción de proteinas, utilizan propiedades físicas relacionadas con los estados de menor energía. Codigo en \url{https://github.com/google-deepmind/alphafold}
         
         Datasets: \url{https://alphafold.ebi.ac.uk}

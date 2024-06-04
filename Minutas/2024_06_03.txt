@@ -1,0 +1,40 @@
+Primera reunión proyecto tecnológico
+03-Junio-2024
+Y. Sarahi García González
+
+Lo que revisamos:
+
+* Datasets: 
+Protein Data Bank (experimental), Database of Antimicrobial Activity and Structure of Peptides (especializado en actividad antimicrobiana), UNIPROT (contiene varias bases de datos como UniProtKB, UniPArc, UNIREF)
+
+* Papers: 
+- ProteinBert: Utiliza otro tipo de atención. Preentrenado en los conjunto de datos UniProtKB y UniRef90. Dos Objetivos, Modelado bidireccional del lenguaje de secuencias de
+proteínas y predicción de anotaciones de Gene Ontology.
+
+-ProtTrans: Cuatro arquitecturas transformers entrenadas en grandes conjuntos de proteinas. 
+
+-Peptide Properties with Recurrent Neural Networks: BUsca predecir Propiedades particulares de polipéptidos. Usan lo tres conjuntos de datos que presenté en el proyecto de NLP
+
+
+* Descripción forma de trabajo
+
+-Una reunión semanal
+-Objetivo de proyecto: A determinar en las proximas semanas. El entregable será algo escrito.
+-Plan de trabajo:(Aquí no recuerdo exactamente las semanas previstas para cada actividad)
+
+* Detallles Reuniones:
+
+De preferencia por las mañanas y no en viernes
+
+*Otros temas:
+
+Invesigadores que hagan trabajo parecido, Escuela NLP y NAACL, mi trayectoria escolar, intereses particulares de las materias de la maestría, importancia de acudir a los seminarios.
+
+
+To Do:
+
+-Terminar de leer Survey
+-Listar las Métricas utilizadas en trabajos relacionados
+-Buscar áres de oportunidad: Bucar problemas específicos. Donde podemos competir con los resultados o qué problema podemos abordar desde una perspectiva distinta (quizá una más simple). 
+-Estudiar alphafold, estado del arte, sus métricas, sus resultados en éstas
+-Mejoras de alphafold3 respecto a alphafold 2
