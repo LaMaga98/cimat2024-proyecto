@@ -1,0 +1,25 @@
+Tercera reunión proyecto tecnológico
+04-Julio-2024
+Y. Sarahi García González
+
+
+Lo que revisamos:
+
+* PEER 
+-Discutimos el contenido del paper y las tareas propuestas, métricas, datasets, etc
+-Revisamos el leaderboard que proporcina el paper a través de la pagina de la librería TorchProtein
+en https://torchprotein.ai/benchmark
+-Escogimos dos tareas para reproducir del paper: Solubilidad y Fluoresencia 
+
+* CASP y TAPE
+-Revisamos el contenido del paper y las tareas que proponen, métricas
+
+*Otros
+-En qué consiste AF2: Arquitectura de evoformer y tareas que resuelve
+-Otros Benchmarks de diferentes papers
+
+
+To Do:
+Reproducir resultados del paper PEER 
+de las tareas Solunilidad y Fluoresencia con los modelos
+portBERT (del proyecto NLP) y con CNN

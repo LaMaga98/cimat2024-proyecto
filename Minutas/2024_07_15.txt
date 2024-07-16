@@ -1,0 +1,17 @@
+Cuarta reunión proyecto tecnológico
+FECHA
+Y. Sarahi García González
+
+
+Lo que revisamos:
+
+-Avances en el código para reproducir la tarea de solubilidad utilizando arquitectura protBERT
+-Librería TorchDrug
+-Detalles de la competencia CAFA
+
+
+To Do:
+-Arreglar y terminar código de tareas solubilidad/fluoresencia
+-Opcional: Transformar los datos de PEER a DataFrame para utlizar la arquitectura del proyect final de NLP
+-Revisar a detalle el notebook/paper de CAFA
+-Comenzar escritura de trabajo final de proyecto tecnológico: Introducción, modelos y estado del arte

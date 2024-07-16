@@ -1,0 +1,34 @@
+Segunda reunión proyecto tecnológico
+11-Junio-2024
+Y. Sarahi García González
+
+Lo que revisamos:
+
+*Survey. 
+-Un pequeño repaso de cada sección del Paper
+-Agunas referencias importantes
+-Tablas con las listas de modelos pLLM y Datasets
+
+*Métricas y áreas de aportunidad
+-Métricas más relevantes Accuracy y Correlación 
+-Mencioné dos papers PEER y TAPE que presentan una serie de benchmarks
+-CASP
+
+*AlphaFold
+-Discutimos algunos problemas que no abarca alphafold
+
+
+
+
+To Do:
+
+-Analizar articulo citas TADE y PEER CASP
+-Revisar TADE PEER CASP
+-Meterse a fondo en las tareas establecidas (Buscar resultados bajos:razones)
+-Revisión de participación en casp: todo bien o una única cosa bien
+-Métodos relevantes
+-Leer AF2 y AF3 detenidamente
+-Proponer 5 Benchmarks para ahondar en trabajo posterior
+
+Fecha de entrega: Lunes 17 de Junio 2024
+Fecha tentativa siguiente reunión: 25 Junio 2024
