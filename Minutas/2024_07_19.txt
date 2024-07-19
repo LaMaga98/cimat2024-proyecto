@@ -1,0 +1,21 @@
+Quinta reunión proyecto tecnológico
+19-Julio-2024
+Y. Sarahi García González
+
+
+Lo que revisamos:
+-Código de Torchdrug: específicamente clases MoleculeDataset,ProteinDataset, y funciones relacionadas con el atributo Lazy. La clase solubility implementa la función load_lmbds de la clase ProteinDataset, cómo lazy=True se genera com atributo staset.data=None.
+
+-Mini artículo final: ideas sobre qué incluir en introducción, background,related work y state of art
+
+-Quedó pendiente discutir notebook/competencia CAFA. 
+
+
+
+To Do:
+-Revisar CAFA
+-Contruir puente entre clase solubility y smiles_list
+-Hacer experimento usando las secuencias del dataset proporcionado en PEER en la arquitectura del proyecto NLP
+-Escribir introducción, background,related work y state of art
+
+Siguiente reunión: Sin definir (posibles:inicios de la siguiente semana presencial o viernes en linea?)
