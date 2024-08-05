@@ -1,0 +1,20 @@
+﻿Tarea,Task group,Definición,Paper,Métrica,State-of-art,Property
+Secondary Structure Prediction,Structure Prediction,"Predecir la estructura secundaria (hélice, hoja o otra) de cada aminoácido en una secuencia de proteína.","PEER, TAPE",Accuracy,,sequence-to-sequence
+Contact Prediction,Structure Prediction," Predecir si pares de aminoácidos en una secuencia de proteína están en contacto (a menos un $\delta$ de distancia)","PEER, TAPE",L/5,,"binary clasification (x_i,x_j)→ y_{i,j} \in {0,1} "
+Remote Homology Detection,evolutionary understanding,Clasificar secuencias de proteínas en una de 1195 posibles estructuras de pliegues,TAPE,Accuracy,,multi clasification x →y
+Fluorescence (Landscape) Prediction,"Function Prediction, engineering","(TAPE)Determina la intensidad de la log-fluoresence
+(PEER)Predice la intensidad de fluorescencia de mutantes de la proteína verde fluorescente","PEER, TAPE",spearman,,regression x→ y
+Stability (Landscape) Prediction,"Function Prediction, engineering"," (TAPE)cada proteína de entrada  x  se mapea a una etiqueta  y  que mide las circunstancias más extremas en las que la prot mantiene su estructura por encima de un umbral de concentración 
+(PEER) Evalúa la estabilidad de las proteínas bajo condiciones naturales. \y indica la medida experimental de estabilidad","PEER, TAPE",spearman,,regression x→ y
+β-Lactamase Activity Prediction,Function Prediction,,PEER,,,
+Solubility Prediction,Function Prediction,,PEER,,,
+Subcellular Localization Prediction,Localization Prediction,,PEER,,,
+Binary Localization Prediction,Localization Prediction,,PEER,,,
+Fold Clasification,Structure Prediction,,PEER,,,
+,,,PEER,,,
+,,,PEER,,,
+,,,PEER,,,
+,,,PEER,,,
+,,,PEER,,,
+,,,PEER,,,
+,,,PEER,,,

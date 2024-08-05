@@ -1,0 +1,14 @@
+﻿Papers,Link,Fecha,descripcion,Paper ref,Responsable,Estado
+PEER,,,,Surver24,,Sin empezar
+ProteinWorkshop,,,,Surver24,,Sin empezar
+ProteinInvBench,,,,Surver24,,Sin empezar
+ProteinShake,,,,Surver24,,Sin empezar
+ProteinGym,,,,Surver24,,Sin empezar
+Proteinglue,,,uilds a benchmark containing 7 downstream tasks for evaluating self-supervised protein representation learning,PEER,,Sin empezar
+ATOM3D,,,provides benchmark datasets for 3D structure based biomolecule understanding.,PEER,,Sin empezar
+TDA,,,contains protein-related datasets and tasks for drug discovery.,PEER,,Sin empezar
+functional properties (nature),,," focuses on the evaluation of unsupervised protein representations and evaluates 23 typical methods",PEER,,Sin empezar
+FLIP,,,proposes three protein landscape benchmarks for fitness prediction evaluation,PEER,,Sin empezar
+TAPE,,,"comprehensively compare different machine learning methods, is built on five tasks spread across different domains of protein biology and evaluate the performance of protein sequence encoders","PEER, Surver24",,Sin empezar
+CAFA,,,Is held for the evaluation of PFP,PEER,,Sin empezar
+CASP,,,Focuses on PSP (golden standard),"PEER, Surver24",,Sin empezar
